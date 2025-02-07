@@ -49,7 +49,7 @@ pip install pandas numpy matplotlib prettytable
    
 The application defines subclasses for other cities (LA, CH, HO, PH) that inherit from the NY class, allowing for similar functionality with different datasets.
 
-4. GUI Integration:
+3. GUI Integration:
    
 The application uses Tkinter to create a GUI that allows users to:
 *	Select a city from a dropdown menu.
@@ -60,7 +60,7 @@ The application uses Tkinter to create a GUI that allows users to:
    
 The main loop of the application initializes the GUI and keeps it running, allowing users to interact with the application.  It handles user events (like city selection and budget input) and updates the display accordingly.
 
-6. Running the Application:
+5. Running the Application:
    
 To run the application, execute the following command in your terminal:
 
