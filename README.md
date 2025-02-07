@@ -38,26 +38,26 @@ pip install pandas numpy matplotlib prettytable
 
 ## Application Logic
 
-Class Structure
+1. Class Structure
 *    NY Class: This class handles the data processing and forecasting for New York. It includes methods for:
 *    Initializing the data and setting up columns for trends and forecasts.
 *    Calculating levels and trends based on historical data.
 *    Forecasting future values and calculating errors.
 *    Plotting data in the GUI.
 
-Subclasses: The application defines subclasses for other cities (LA, CH, HO, PH) that inherit from the NY class, allowing for similar functionality with different datasets.
+2. Subclasses
+The application defines subclasses for other cities (LA, CH, HO, PH) that inherit from the NY class, allowing for similar functionality with different datasets.
 
-GUI Integration
+3. GUI Integration
 The application uses Tkinter to create a GUI that allows users to:
-
 **	Select a city from a dropdown menu.
 **	View the forecasted home values plotted on a graph.
 **	Enter a budget range to receive recommendations based on the forecasted values.
 
-Main Loop
+4. Main Loop
 The main loop of the application initializes the GUI and keeps it running, allowing users to interact with the application.  It handles user events (like city selection and budget input) and updates the display accordingly.
 
-Running the Application
+5. Running the Application
 To run the application, execute the following command in your terminal:
 
 ```Bash
