@@ -25,10 +25,10 @@ You can install the required packages using:
 
 ```bash
 pip install pandas numpy matplotlib prettytable
-
+```
 ## Data Files
 
-The application uses the following CSV files:
+## The application uses the following CSV files:
 
 *    NY_ZHVI.csv: Contains historical home value data for New York.
 *    ZHVI_LA.csv: Contains historical home value data for Los Angeles.
@@ -60,9 +60,9 @@ The main loop of the application initializes the GUI and keeps it running, allow
 Running the Application
 To run the application, execute the following command in your terminal:
 
-Bash
-
+```Bash
 python forecast.py
+```
 This will open the GUI where you can select a city and view forecasts.
 
 Conclusion
