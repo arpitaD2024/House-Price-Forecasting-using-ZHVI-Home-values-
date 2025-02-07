@@ -4,6 +4,9 @@
 
 HousePriceXpert is a Python application designed to forecast home values using historical data. The application utilizes various libraries such as Pandas for data manipulation, NumPy for numerical operations, Matplotlib for plotting, and Tkinter for creating a graphical user interface (GUI).
 
+## Tableau Desktop Dashboard
+![image cannot be displayed](Tableau_Dashboard_img.jpg)
+
 ## Features
 
 *   **Data Import:** The application reads historical home value data from CSV files.
@@ -56,7 +59,8 @@ The application uses Tkinter to create a GUI that allows users to:
 *	View the forecasted home values plotted on a graph.
 *	Enter a budget range to receive recommendations based on the forecasted values.
 
-GUI Output:
+## GUI Output:
+
 ![image cannot be displayed](image_gui.jpg)
 
 4. Main Loop:
