@@ -65,5 +65,5 @@ python forecast.py
 ```
 This will open the GUI where you can select a city and view forecasts.
 
-Conclusion
+## Conclusion
 HousePriceXpert provides a comprehensive tool for forecasting home values based on historical data. The combination of data analysis, forecasting, and visualization makes it a valuable resource for potential homebuyers and real estate professionals.
