@@ -1,4 +1,4 @@
-# HousePriceXpert - Home Value Forecaster
+# HousePriceXpert - Home Value Forecast System
 
 ## Overview
 
