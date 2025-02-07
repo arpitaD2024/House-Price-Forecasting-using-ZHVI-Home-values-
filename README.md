@@ -45,19 +45,23 @@ pip install pandas numpy matplotlib prettytable
 *    Forecasting future values and calculating errors.
 *    Plotting data in the GUI.
 
-2. Subclasses
+2. Subclasses:
+   
 The application defines subclasses for other cities (LA, CH, HO, PH) that inherit from the NY class, allowing for similar functionality with different datasets.
 
-3. GUI Integration
+4. GUI Integration:
+   
 The application uses Tkinter to create a GUI that allows users to:
-**	Select a city from a dropdown menu.
-**	View the forecasted home values plotted on a graph.
-**	Enter a budget range to receive recommendations based on the forecasted values.
+*	Select a city from a dropdown menu.
+*	View the forecasted home values plotted on a graph.
+*	Enter a budget range to receive recommendations based on the forecasted values.
 
-4. Main Loop
+4. Main Loop:
+   
 The main loop of the application initializes the GUI and keeps it running, allowing users to interact with the application.  It handles user events (like city selection and budget input) and updates the display accordingly.
 
-5. Running the Application
+6. Running the Application:
+   
 To run the application, execute the following command in your terminal:
 
 ```Bash
